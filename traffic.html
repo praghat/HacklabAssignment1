@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Traffic Light Demo</title>
+  <style>
+    .button {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      margin: 10px;
+      border-radius: 50%;
+      border: 2px solid black;
+    }
+    .red {
+      background-color: red;
+    }
+    .yellow {
+      background-color: yellow;
+    }
+    .green {
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <div>Current state: <span id="state"></span></div>
+    <div>
+      <button id="red-button" class="button red"></button>
+      <button id="yellow-button" class="button"></button>
+      <button id="green-button" class="button"></button>
+    </div>
+  </div>
+  <script src="traffic-light.js"></script>
+</body>
+</html>
